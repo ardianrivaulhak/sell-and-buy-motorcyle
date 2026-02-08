@@ -1,0 +1,25 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Yamaha MT-15">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ece8e2" />
+      <stop offset="100%" stop-color="#f8f4ee" />
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4f4f4f" />
+      <stop offset="100%" stop-color="#242424" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="32" fill="url(#bg)" />
+  <g transform="translate(60 125)">
+    <circle cx="120" cy="135" r="52" fill="#1a1a1a" />
+    <circle cx="430" cy="135" r="52" fill="#1a1a1a" />
+    <circle cx="120" cy="135" r="26" fill="#e7e2db" />
+    <circle cx="430" cy="135" r="26" fill="#e7e2db" />
+    <path d="M110 120 L200 70 L320 70 L410 90 L470 120" fill="none" stroke="#0f7a6c" stroke-width="10" stroke-linecap="round" />
+    <path d="M210 65 L260 35 L340 35 L390 65" fill="none" stroke="#0f7a6c" stroke-width="10" stroke-linecap="round" />
+    <path d="M220 90 L360 90 L420 120 L240 120 Z" fill="url(#body)" />
+    <rect x="265" y="58" width="70" height="35" rx="10" fill="#4f4f4f" />
+    <rect x="375" y="92" width="40" height="20" rx="8" fill="#f06f2b" />
+  </g>
+  <text x="40" y="60" font-family="'Space Grotesk', sans-serif" font-size="28" fill="#1d1a16">Yamaha MT-15</text>
+</svg>

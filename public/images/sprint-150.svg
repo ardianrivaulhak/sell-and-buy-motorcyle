@@ -1,0 +1,23 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Vespa Sprint 150">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c2f0de" />
+      <stop offset="100%" stop-color="#effbf6" />
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5aa98a" />
+      <stop offset="100%" stop-color="#2f7f63" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="32" fill="url(#bg)" />
+  <g transform="translate(70 120)">
+    <circle cx="130" cy="140" r="52" fill="#1c1c1c" />
+    <circle cx="420" cy="140" r="52" fill="#1c1c1c" />
+    <circle cx="130" cy="140" r="28" fill="#e7efe9" />
+    <circle cx="420" cy="140" r="28" fill="#e7efe9" />
+    <path d="M160 70 C200 35 300 30 350 70 L390 120 L240 120 C200 120 160 105 150 80" fill="url(#body)" />
+    <rect x="270" y="52" width="60" height="30" rx="14" fill="#f7f3ea" />
+    <rect x="360" y="104" width="38" height="20" rx="8" fill="#f06f2b" />
+  </g>
+  <text x="40" y="60" font-family="'Space Grotesk', sans-serif" font-size="28" fill="#1d1a16">Vespa Sprint 150</text>
+</svg>

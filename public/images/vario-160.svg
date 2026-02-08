@@ -1,0 +1,25 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Honda Vario 160">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7c3c6" />
+      <stop offset="100%" stop-color="#fbe3e5" />
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c7373d" />
+      <stop offset="100%" stop-color="#8f1d24" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="32" fill="url(#bg)" />
+  <g transform="translate(60 125)">
+    <circle cx="120" cy="135" r="52" fill="#1a1a1a" />
+    <circle cx="430" cy="135" r="52" fill="#1a1a1a" />
+    <circle cx="120" cy="135" r="26" fill="#f0e4e6" />
+    <circle cx="430" cy="135" r="26" fill="#f0e4e6" />
+    <path d="M110 120 L190 70 L330 70 L420 100 L470 120" fill="none" stroke="#f06f2b" stroke-width="10" stroke-linecap="round" />
+    <path d="M200 65 L260 35 L350 35 L390 65" fill="none" stroke="#f06f2b" stroke-width="10" stroke-linecap="round" />
+    <path d="M215 90 L360 90 L420 120 L230 120 Z" fill="url(#body)" />
+    <rect x="260" y="58" width="70" height="35" rx="10" fill="#d23b41" />
+    <rect x="370" y="92" width="40" height="20" rx="8" fill="#f7e5d7" />
+  </g>
+  <text x="40" y="60" font-family="'Space Grotesk', sans-serif" font-size="28" fill="#1d1a16">Honda Vario 160</text>
+</svg>

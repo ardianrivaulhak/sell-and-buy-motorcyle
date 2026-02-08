@@ -1,0 +1,24 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Kawasaki W175">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d0ead1" />
+      <stop offset="100%" stop-color="#f0f8f0" />
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#285f3a" />
+      <stop offset="100%" stop-color="#1f3f2a" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="32" fill="url(#bg)" />
+  <g transform="translate(70 120)">
+    <circle cx="120" cy="140" r="52" fill="#1b1b1b" />
+    <circle cx="440" cy="140" r="52" fill="#1b1b1b" />
+    <circle cx="120" cy="140" r="28" fill="#e9f1ea" />
+    <circle cx="440" cy="140" r="28" fill="#e9f1ea" />
+    <path d="M120 120 L210 80 L340 80 L420 110 L470 130" fill="none" stroke="#0f7a6c" stroke-width="10" stroke-linecap="round" />
+    <path d="M210 80 L260 50 L340 50" fill="none" stroke="#0f7a6c" stroke-width="10" stroke-linecap="round" />
+    <rect x="220" y="90" width="170" height="40" rx="20" fill="url(#body)" />
+    <rect x="360" y="95" width="40" height="20" rx="8" fill="#f06f2b" />
+  </g>
+  <text x="40" y="60" font-family="'Space Grotesk', sans-serif" font-size="28" fill="#1d1a16">Kawasaki W175</text>
+</svg>

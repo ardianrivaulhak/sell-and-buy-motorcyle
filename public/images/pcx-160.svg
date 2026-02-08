@@ -1,0 +1,25 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Honda PCX 160">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7d7c2" />
+      <stop offset="100%" stop-color="#f3efe8" />
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2f2f2f" />
+      <stop offset="100%" stop-color="#4a4a4a" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="32" fill="url(#bg)" />
+  <g transform="translate(70 120)">
+    <circle cx="110" cy="140" r="52" fill="#1b1b1b" />
+    <circle cx="420" cy="140" r="52" fill="#1b1b1b" />
+    <circle cx="110" cy="140" r="28" fill="#d9d9d9" />
+    <circle cx="420" cy="140" r="28" fill="#d9d9d9" />
+    <path d="M90 130 L170 70 L310 70 L390 110 L440 110 L470 130" fill="none" stroke="#0f7a6c" stroke-width="10" stroke-linecap="round" />
+    <path d="M170 70 L230 40 L320 40 L360 70" fill="none" stroke="#0f7a6c" stroke-width="10" stroke-linecap="round" />
+    <path d="M200 90 L360 90 L400 120 L220 120 Z" fill="url(#body)" />
+    <rect x="240" y="60" width="70" height="35" rx="10" fill="#5f5f5f" />
+    <rect x="355" y="92" width="40" height="20" rx="8" fill="#f06f2b" />
+  </g>
+  <text x="40" y="60" font-family="'Space Grotesk', sans-serif" font-size="28" fill="#1d1a16">Honda PCX 160</text>
+</svg>
