@@ -31,8 +31,6 @@ const saveListings = (listings: Listing[]) => {
 // Simulate network delay
 const delay = (ms: number = 300) => new Promise(resolve => setTimeout(resolve, ms))
 
-type ApiErrorPayload = { error: { message: string } }
-
 export class ApiError extends Error {
   status: number
 
@@ -86,7 +84,7 @@ export const api = {
     return { data: listing }
   },
   
-  createListing: async (payload: unknown, accessToken: string) => {
+  createListing: async (payload: unknown, _accessToken: string) => {
     await delay()
     const listings = getStoredListings()
     const newListing = payload as Listing
@@ -95,7 +93,7 @@ export const api = {
     return { data: newListing }
   },
   
-  updateListing: async (id: string, payload: unknown, accessToken: string) => {
+  updateListing: async (id: string, payload: unknown, _accessToken: string) => {
     await delay()
     const listings = getStoredListings()
     const index = listings.findIndex(l => l.id === id)
@@ -174,7 +172,7 @@ export const api = {
     }
   },
   
-  refresh: async (refreshToken: string) => {
+  refresh: async (_refreshToken: string) => {
     await delay()
     const stored = localStorage.getItem(AUTH_STORAGE_KEY)
     if (!stored) {
@@ -187,7 +185,7 @@ export const api = {
     }
   },
   
-  logout: async (refreshToken: string) => {
+  logout: async (_refreshToken: string) => {
     await delay()
     localStorage.removeItem(AUTH_STORAGE_KEY)
     return {}

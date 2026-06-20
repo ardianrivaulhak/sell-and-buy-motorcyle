@@ -106,7 +106,6 @@ function App() {
     photos: string[],
     editingId?: string,
   ) => {
-    const baseSlug = slugify(payload.title)
     const fallbackPhoto =
       payload.category === 'Mobil' ? '/images/avanza-2019.svg' : '/images/pcx-160.svg'
     const nextPhotos = photos.length > 0 ? photos : [fallbackPhoto]

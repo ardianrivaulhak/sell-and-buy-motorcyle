@@ -77,7 +77,7 @@ export const ListingDetailPage = ({ listings, isLoading }: ListingDetailPageProp
   }
 
   const gallery =
-    resolvedListing.photos.filter((photo) => !photo.endsWith('.svg')) ?? []
+    resolvedListing.photos.filter((photo: string) => !photo.endsWith('.svg')) ?? []
   const gallerySources =
     gallery.length > 0 ? gallery : resolvedListing.photos ?? []
 
@@ -153,7 +153,7 @@ export const ListingDetailPage = ({ listings, isLoading }: ListingDetailPageProp
           <div className="detail-card">
             <h2>Fitur utama</h2>
             <ul className="feature-list">
-              {resolvedListing.features.map((feature) => (
+              {resolvedListing.features.map((feature: string) => (
                 <li key={feature}>{feature}</li>
               ))}
             </ul>
@@ -183,7 +183,7 @@ export const ListingDetailPage = ({ listings, isLoading }: ListingDetailPageProp
           <div className="detail-card">
             <h2>Foto lainnya</h2>
             <div className="photo-grid">
-              {gallerySources.map((photo) => (
+              {gallerySources.map((photo: string) => (
                 <div className="photo-item" key={photo}>
                   <ListingImage
                     sources={[photo, resolvedListing.photos[1] ?? photo]}
